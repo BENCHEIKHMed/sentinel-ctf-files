@@ -1,0 +1,12 @@
+=== Sentinel CTF — RSA Weak Primes (Fermat Attack) ===
+
+Paramètres RSA interceptés :
+
+n = 74445671302105793996422825700880341785044393357398967014180501230555812800561
+e = 65537
+c = 3413418560665446969551139825782196691017139154714864369200562416049788898773
+
+Objectif : Factorisez n, calculez la clé privée d, puis déchiffrez c.
+Le message déchiffré, converti en ASCII, est le flag.
+
+Note : Ces paramètres sont vulnérables à l'attaque de Fermat.
