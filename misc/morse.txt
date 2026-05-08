@@ -1,0 +1,12 @@
+=== Sentinel CTF — Morse Code ===
+
+Signal radio intercepté :
+
+--. .--. .---- --... --... ...
+
+Séparateurs :
+- Un espace entre chaque symbole d'une même lettre : . ou -
+- Trois espaces entre chaque lettre
+- Sept espaces (ou /) entre chaque mot
+
+Format du flag : une fois décodé → FLAG{MESSAGE_DÉCODÉ}
