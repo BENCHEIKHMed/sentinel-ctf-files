@@ -1,0 +1,22 @@
+=== Sentinel CTF — Domain Intelligence ===
+
+ALERTE PHISHING — Rapport de Renseignement
+
+Un domaine suspect a été signalé dans une campagne de phishing ciblant
+des institutions financières françaises.
+
+DOMAINE CIBLE : secure-bank-verify[.]com
+
+INFORMATIONS COLLECTÉES :
+- Créé il y a moins d'une semaine
+- Hébergé derrière un reverse proxy
+- Imite l'interface de plusieurs banques françaises
+
+MISSION :
+Analysez l'infrastructure DNS de ce domaine pour trouver le flag
+caché dans un enregistrement TXT.
+
+OUTILS : dig, nslookup, dnsdumpster.com, SecurityTrails
+COMMANDE : dig TXT secure-bank-verify.com +short
+
+FORMAT DU FLAG : FLAG{...}
