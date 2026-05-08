@@ -1,0 +1,10 @@
+=== Sentinel CTF — Vigenère Breaker ===
+
+Message diplomatique chiffré (Vigenère) :
+
+CBMREHG I E RIOG BHLHRU TXJ TBTKXJ HECDXIGRPB ER FXQXIS RP UXDS GGUIJ
+
+Informations connues :
+- Algorithme : chiffrement de Vigenère classique
+- Longueur de la clé : 6 lettres
+- Format du flag : FLAG{clé_utilisée}
