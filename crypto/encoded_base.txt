@@ -1,0 +1,8 @@
+=== Sentinel CTF — Base Converter ===
+
+Message encodé intercepté :
+
+NDY0YzQxNDc3YjYyNjE3MzMzNjQ1ZjY1NmU2MzMwNjQ2NTY0N2Q=
+
+Ce message a subi plusieurs transformations d'encodage successives.
+Chaque couche révèle la suivante jusqu'au flag.
