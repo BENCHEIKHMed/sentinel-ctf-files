@@ -1,0 +1,25 @@
+From: security@paypal-secure-verify.com
+To: employee@company.fr
+Subject: [URGENT] Votre compte PayPal a été suspendu
+Date: Mon, 19 May 2025 09:14:32 +0000
+Message-ID: <phish123@paypal-secure-verify.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Received: from mail.paypal-secure-verify.com (unknown [185.220.101.42])
+        by mx1.company.fr (Postfix) with ESMTP id A1B2C3D4E5
+        for <employee@company.fr>; Mon, 19 May 2025 09:14:35 +0000
+Received: from localhost (localhost [127.0.0.1])
+        by paypal-secure-verify.com (Postfix) with ESMTP id F6G7H8I9J0
+        for <employee@company.fr>; Mon, 19 May 2025 09:14:30 +0000
+X-Spam-Status: Yes, score=8.9
+X-Originating-IP: 185.220.101.42
+X-CTF: FLAG{3m41l_h34d3r_4n4lys1s_d0n3}
+Authentication-Results: mx1.company.fr;
+        spf=fail (sender IP is 185.220.101.42) smtp.mailfrom=paypal-secure-verify.com;
+        dkim=fail reason="signature verification failed"
+X-Mailer: PhishKit Pro 3.1
+
+<html><body>
+<p>Votre compte a ete suspendu. Cliquez ici pour verifier:</p>
+<a href="http://paypal-secure-verify.com/login">Verifier mon compte</a>
+</body></html>
