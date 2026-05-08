@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run]
+"WindowsUpdate"=hex:4d,5a,90,00,03,00,00,00
+"SentinelAV"="C:\\Windows\\System32\\svchost.exe"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run\Malware]
+"UpdateService"="RkxBR3tyM2cxc3RyeV9wM3JzMXN0M25jM19rM3lfZjB1bmR9"
+"_comment"="This is base64 encoded - decode to find the flag"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"Shell"="explorer.exe"
+"Userinit"="C:\\Windows\\system32\\userinit.exe,"
