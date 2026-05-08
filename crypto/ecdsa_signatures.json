@@ -1,0 +1,24 @@
+{
+  "description": "Two ECDSA signatures on secp256k1 with the SAME nonce k. Recover the private key.",
+  "curve": "secp256k1",
+  "n": "0xfffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364141",
+  "messages": [
+    {
+      "msg": "Sign this message 1",
+      "z": "0xa80c4808da4bea1f8d74184ed3a6a87114789a3c449f5dea5c46b8082e2227c4",
+      "r": "0x5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+      "s": "0x4d4297ba130d447b5faf820ceb2ba9687e072b15893c542422629a92efa0017d"
+    },
+    {
+      "msg": "Sign this message 2",
+      "z": "0xc918253b61a3cb6c5c999881a70c8da8890e150b6f628aa5d85c771a0a97893",
+      "r": "0x5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+      "s": "0x7a50d99cc02a673813890548b92ab47fe1add9b1a9e085aef7e03f46522e7743"
+    }
+  ],
+  "public_key_x": "0x79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798",
+  "hint": "If k is reused: k = (z1-z2) * modinv(s1-s2, n) mod n",
+  "flag_format": "FLAG{...} \u2014 submit the private key as: FLAG{privkey_hex[:16]}",
+  "verify": "Recovered privkey should be: 0xdeadbeefcafebabe12345678",
+  "flag": "FLAG{3cdsa_nonce_r3us3_k3y_r3c0v3ry}"
+}
