@@ -1,0 +1,21 @@
+=== Sentinel CTF — Digital Footprint ===
+
+MISSION D'INVESTIGATION OSINT
+
+Un hacker utilisant le pseudonyme "0xN1ghtCrawl3r" a été repéré
+sur plusieurs forums de cybersécurité. Retracez son parcours numérique
+pour identifier son vrai nom et sa localisation.
+
+POINTS DE DÉPART :
+- Pseudonyme connu : 0xN1ghtCrawl3r
+- Actif sur : HackTheBox, GitHub, Reddit r/netsec
+- A mentionné travailler dans "une grande ville du Benelux"
+
+OBJECTIFS :
+1. Trouvez son vrai nom complet
+2. Identifiez sa ville de résidence
+3. Trouvez son adresse email personnelle
+
+FORMAT DU FLAG : FLAG{prenom_nom_ville}
+
+OUTILS SUGGÉRÉS : Maltego, theHarvester, Sherlock, Google Dorks
