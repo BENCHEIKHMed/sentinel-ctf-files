@@ -1,0 +1,24 @@
+=== Sentinel CTF — Ghost Employee ===
+
+RAPPORT D'INCIDENT — TechCorp Industries
+Date : 2024-11-15
+Rédigé par : Équipe Sécurité
+
+CONTEXTE :
+Un ancien employé a quitté l'entreprise TechCorp Industries le 2024-09-01
+dans des circonstances suspectes, peu après un incident de sécurité interne.
+
+PROFIL CIBLE :
+- Nom : Jean-Michel Durand
+- Ancien poste : Ingénieur Sécurité Senior
+- Localisation : Paris, France
+- Période d'emploi : 2019-2024
+
+MISSION :
+Retrouvez son email professionnel actuel en utilisant uniquement
+des sources publiques (LinkedIn, GitHub, Hunter.io, etc.)
+
+FORMAT DU FLAG : FLAG{prenom.nom@domaine.fr}
+
+Note : Les indices dans l'historique Git public peuvent révéler
+l'adresse email configurée dans git config.
