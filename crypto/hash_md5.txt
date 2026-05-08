@@ -1,0 +1,8 @@
+=== Sentinel CTF — Hash Cracking MD5 ===
+
+Hash MD5 extrait d'un fichier /etc/shadow compromis :
+
+5f4dcc3b5aa765d61d8327deb882cf99
+
+Utilisateur : admin
+Format du flag : FLAG{mot_de_passe_en_clair}
