@@ -1,0 +1,20 @@
+=== Sentinel CTF — LinkedIn OSINT ===
+
+ENQUÊTE RH — Violation de Clause de Non-Concurrence
+
+CONTEXTE :
+Sophie Laurent (ex-Directrice Technique chez InnovateTech) a signé
+une clause de non-concurrence de 18 mois lors de son départ en juin 2023.
+Des informateurs indiquent qu'elle a rejoint un concurrent direct.
+
+MISSION :
+Prouvez qu'elle viole sa clause en retrouvant :
+1. Son nouveau employeur
+2. La date de début de son nouveau poste
+3. La nature exacte de son rôle
+
+FORMAT DU FLAG : FLAG{entreprise_mois_annee}
+Exemple : FLAG{cybercorp_janvier_2024}
+
+SOURCES PUBLIQUES : LinkedIn, Welcome to the Jungle, Glassdoor
+Note : Son profil LinkedIn est public et récemment mis à jour.
