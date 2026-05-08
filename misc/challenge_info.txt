@@ -1,0 +1,11 @@
+=== Docker Escape Challenge ===
+
+Vous avez obtenu un accès shell dans ce conteneur Docker.
+Le vrai flag se trouve sur le système hôte dans /flag.txt.
+
+Indices :
+1. Vérifiez les capabilities de votre processus
+2. Examinez les montages disponibles
+3. Des droits spéciaux ont été accordés à ce conteneur
+
+Bonne chance.
