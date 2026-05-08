@@ -1,0 +1,9 @@
+=== Sentinel CTF — XOR Cipher ===
+
+Données chiffrées (hexadécimal) :
+2e2d222c13190c19375010341b180e065b15115a0b1c
+
+Informations :
+- Algorithme : XOR avec clé répétée
+- Longueur de la clé : 4 caractères
+- La clé est un terme lié à la cybersécurité
