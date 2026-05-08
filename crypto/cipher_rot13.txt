@@ -1,0 +1,8 @@
+=== Sentinel CTF — ROT13 & César ===
+
+Message intercepté sur le réseau de l'entreprise :
+
+SYNT{p3f4e_p1cu3e_e4f3e3_p3f4e3}
+
+Note : Ce message utilise un chiffrement par rotation simple.
+Testez chaque rotation de ROT-1 à ROT-25.
